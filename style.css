@@ -74,13 +74,14 @@ body {
 .btnuser {
     flex: 1;
     padding: 10px;
-    border: 2px solid #333;
+    border: 2px solid #244282;
     background: none;
     border-radius: 8px;
     color: #333;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s;
+    box-shadow: 0 1px 8px #333;
 }
 
 .btnuser.active {
@@ -94,6 +95,7 @@ body {
 }
 
 .input-box input {
+    color: #666;
     width: 100%;
     padding: 15px 15px 15px 45px;
     border: 0;
@@ -108,6 +110,7 @@ body {
 }
 
 .input-box i {
+    padding: auto;
     position: absolute;
     left: 15px;
     top: 50%;
